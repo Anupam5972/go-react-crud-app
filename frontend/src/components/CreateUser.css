@@ -1,0 +1,25 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+.create-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.create-user-form {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.create-user-form label {
+    display: inline-block;
+    margin: 10px;
+}
+
+.create-user-form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 15px;
+}

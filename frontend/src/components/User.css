@@ -1,0 +1,24 @@
+/* Users.css */
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}

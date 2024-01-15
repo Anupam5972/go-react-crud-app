@@ -1,0 +1,31 @@
+.user-display {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+}
+
+.user-display th,
+.user-display td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.user-display th {
+    background-color: #f2f2f2;
+}
+
+.user-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.user-display {
+    margin-top: 20px;
+}
+
+.space-between {
+    margin-bottom: 20px;
+}
