@@ -35,7 +35,7 @@ const CreateUser = () => {
                     Email:
                     <input type="text" value={newUser.email} onChange={(e) => setNewUser({ ...newUser, email: e.target.value })} />
                 </label>
-                <button onClick={handleCreateUser} className='button'>Create User</button>
+                <button onClick={handleCreateUser} className='button' style={{fontFamily: 'Poppins'}}>Create User</button>
             </div>
         </div>
     );

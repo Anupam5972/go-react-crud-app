@@ -7,7 +7,7 @@ import UpdateUser from './components/UpdateUser';
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>Go API Frontend</h1>
+      <h1 style={{ textAlign: 'center', fontFamily: 'Poppins' }}>Go API Frontend</h1>
 
       {/* Display Users */}
       <Users />

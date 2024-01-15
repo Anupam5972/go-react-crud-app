@@ -1,8 +1,10 @@
-/* Users.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .user-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Poppins';
 }
 
 .user-table {
@@ -10,6 +12,7 @@
   width: 75%;
   margin: auto;
   margin-top: 20px;
+  font-family: 'Poppins';
 }
 
 .user-table th,
@@ -17,8 +20,10 @@
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-family: 'Poppins';
 }
 
 .user-table th {
   background-color: #f2f2f2;
+  font-family: 'Poppins';
 }

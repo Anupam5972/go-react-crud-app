@@ -84,3 +84,8 @@ The project consists of two main parts:
 
 - Error handling: Proper error handling is implemented in both the backend and frontend to handle potential issues.
 - User-friendly alerts: Alerts are displayed to the user for successful and failed operations.
+
+UI Demo
+-------
+![Alt text](image.png)
+![Alt text](image-1.png)

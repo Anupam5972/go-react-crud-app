@@ -35,7 +35,7 @@ const UpdateUser = () => {
                     <span>New Email:</span>
                     <input type="text" value={updatedUser.email} onChange={(e) => setUpdatedUser({ ...updatedUser, email: e.target.value })} />
                 </label>
-                <button onClick={handleUpdateUser} className='button'>Update User</button>
+                <button onClick={handleUpdateUser} className='button' style={{fontFamily: 'Poppins'}}>Update User</button>
             </div>
         </div>
     );

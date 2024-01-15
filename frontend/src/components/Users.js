@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './User.css'; 
+import './User.css';
 
 const Users = () => {
     const [users, setUsers] = useState([]);
@@ -35,7 +35,7 @@ const Users = () => {
     return (
         <div className='user-container'>
             <h2>Users</h2>
-            <button onClick={fetchUsers} className='button'>Display Users</button>
+            <button onClick={fetchUsers} className='button' style={{ fontFamily: 'Poppins' }}>Display Users</button>
             <table className="user-table">
                 <thead>
                     <tr>
@@ -52,7 +52,7 @@ const Users = () => {
                             <td>{user.name}</td>
                             <td>{user.email}</td>
                             <td>
-                                <button onClick={() => handleDelete(user.id)} className='button'>Delete</button>
+                                <button onClick={() => handleDelete(user.id)} className='button' style={{ fontFamily: 'Poppins' }}>Delete</button>
                             </td>
                         </tr>
                     ))}

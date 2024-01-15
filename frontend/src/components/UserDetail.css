@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 .user-display {
     border-collapse: collapse;
     width: 50%;
     margin: auto;
+    font-family: 'Poppins';
 }
 
 .user-display th,
@@ -9,10 +12,12 @@
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    font-family: 'Poppins';
 }
 
 .user-display th {
     background-color: #f2f2f2;
+    font-family: 'Poppins';
 }
 
 .user-detail-container {
@@ -20,10 +25,12 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    font-family: 'Poppins';
 }
 
 .user-display {
     margin-top: 20px;
+    font-family: 'Poppins';
 }
 
 .space-between {

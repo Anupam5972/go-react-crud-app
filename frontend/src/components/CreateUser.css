@@ -1,4 +1,4 @@
-/* Add these styles to your existing CSS file or create a new one */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 .create-user-container {
     display: flex;
@@ -6,20 +6,24 @@
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    font-family: 'Poppins';
 }
 
 .create-user-form {
     margin-top: 20px;
     width: 50%;
+    font-family: 'Poppins';
 }
 
 .create-user-form label {
     display: inline-block;
     margin: 10px;
+    font-family: 'Poppins';
 }
 
 .create-user-form input {
     width: calc(100% - 20px);
     padding: 8px;
     margin-bottom: 15px;
+    font-family: 'Poppins';
 }

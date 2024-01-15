@@ -28,7 +28,7 @@ const UserDetail = () => {
                 <input type="text" value={userId} onChange={(e) => setUserId(e.target.value)} />
             </label>
             </div>
-            <button onClick={fetchUserById} className='button'>Display User by ID</button>
+            <button onClick={fetchUserById} className='button' style={{fontFamily: 'Poppins'}}>Display User by ID</button>
             {user && (
                 <table className='user-display'>
                     <thead>
